@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run-server",
+			"type": "shell",
+			"command": "uvicorn app.main:app --reload",
+			"group": "build"
+		}
+	]
+}
